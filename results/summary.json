@@ -1,0 +1,54 @@
+{
+  "config": {
+    "n_x": 41,
+    "n_v": 41,
+    "samples_per_cell": 16,
+    "gamma": 0.99,
+    "theta": 1e-06,
+    "episodes": 1000
+  },
+  "pi": {
+    "iterations": 9,
+    "eval_sweeps": 2027,
+    "sweeps_per_iteration": [
+      1376,
+      228,
+      137,
+      100,
+      72,
+      58,
+      35,
+      12,
+      9
+    ],
+    "time_s": 0.48638310001115315,
+    "v_min": -66.79877015945674
+  },
+  "vi": {
+    "sweeps": 287,
+    "time_s": 0.08229140000184998,
+    "v_min": -66.79875542157478,
+    "error_bound": 9.899999999999991e-05
+  },
+  "comparison": {
+    "max_abs_v_diff": 1.473788195482939e-05,
+    "agreement_pct": 94.17013682331945,
+    "disagreeing_cells": 98,
+    "tie_cells": 168,
+    "disagreements_outside_ties": 0
+  },
+  "evaluation": {
+    "PI": {
+      "episodes": 1000,
+      "successes": 1000,
+      "mean_steps": 104.703,
+      "std_steps": 20.333145133008813
+    },
+    "VI": {
+      "episodes": 1000,
+      "successes": 1000,
+      "mean_steps": 104.743,
+      "std_steps": 20.334526082503128
+    }
+  }
+}
